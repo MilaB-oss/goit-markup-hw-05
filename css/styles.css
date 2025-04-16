@@ -332,6 +332,7 @@ letter-spacing: 0.03em;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        margin-bottom: 8px;
     }
     
     .social-list {
@@ -357,13 +358,10 @@ letter-spacing: 0.03em;
       }
     
     .social-icon {
-    height: 16px;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12px;
-    margin-top: 12px;
     fill: #FFFFFF;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -382,7 +380,7 @@ letter-spacing: 0.03em;
     
 .portfolio-main-title {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -403,10 +401,7 @@ letter-spacing: 0.03em;
     }
     
 .portfolio-item {
-    position: relative;
     width: calc((100% - 48px) / 3);
-    overflow: hidden;
-    height: 400px; 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
@@ -422,10 +417,6 @@ letter-spacing: 0.03em;
     
 .portfolio-overlay {
     position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     overflow: hidden;
     }
     
@@ -482,9 +473,6 @@ letter-spacing: 0.03em;
 .footer-container {
     display: flex;
     align-items: baseline;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .footer-content {
