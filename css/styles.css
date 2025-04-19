@@ -702,6 +702,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 margin-bottom: 16px;
+
 }
 
 .form-label {
@@ -892,7 +893,6 @@ transform: translate(-50%, -100%) scale(1.5);
 .modal-close-btn:hover,
 .modal-close-btn:focus {
     background-color: #404bbf;
-    fill: #ffffff;
     border: none;
 }
 
