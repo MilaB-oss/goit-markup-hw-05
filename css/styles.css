@@ -720,6 +720,7 @@ margin-bottom: 4px;
 
 .input-wrapper {
 position: relative;
+margin-bottom: 16px
 }
 
 .form-icon {
@@ -789,6 +790,10 @@ color: #2E2F42;
 color: #2E2F42;
 }
 
+:root {
+    --checked-fill-color: #F4F4FD;
+  }
+
 .form-checkbox {
 margin-bottom: 16px;
 }
@@ -830,6 +835,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 .checkbox-input {
+display: none;
 position: absolute;
 width: 1px;
 height: 1px;
@@ -853,6 +859,7 @@ overflow: hidden;
   }
   
 .checkbox-icon {
+    display: inline-flex; 
     opacity: 0;
     fill: #F4F4FD;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
