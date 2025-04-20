@@ -365,19 +365,24 @@
     </div>
 </div>
 </footer>
-  <div class="backdrop is-open" data-modal>
-      <div class="modal">
+<div class="backdrop is-open" data-modal>
+  <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
           </svg>
        </button>
        <p class="modal-title">Leave your contacts and we will call you back</p>
-      <form class="modal-form">                    
+        <form class="modal-form">                    
         <div class="form-field">
             <label for="user-name" class="form-label">Name</label>
             <div class="input-wrapper">
-                <input type="text" name="user-name" id="user-name" class="form-input" placeholder=" " required>
+                <input type="text" 
+                name="user-name" 
+                id="user-name" 
+                class="form-input" 
+                placeholder=" " 
+                required>
                 <svg class="form-icon" width="12" height="12">
                     <use href="./images/icons.svg#icon-person"></use>
                 </svg>
@@ -386,7 +391,12 @@
         <div class="form-field">
             <label for="user-email" class="form-label">Email</label>
             <div class="input-wrapper">
-                <input type="email" name="user-email" id="user-email" class="form-input" placeholder=" " required>
+                <input type="email" 
+                name="user-email" 
+                id="user-email" 
+                class="form-input" 
+                placeholder=" " 
+                required>
                 <svg class="form-icon" width="12" height="12">
                     <use href="./images/icons.svg#icon-email"></use>
                 </svg>
@@ -398,7 +408,8 @@
                 <input type="tel" name="user-phone" 
                                   id="user-phone" 
                                   class="form-input" 
-                                  placeholder=" " required>
+                                  placeholder=" " 
+                                  required>
                 <svg class="form-icon" width="13" height="13">
                     <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
@@ -412,7 +423,11 @@
                       placeholder="Text input"></textarea>
         </div>        
         <div class="form-checkbox">
-            <input type="checkbox" name="privacy-policy" id="privacy-policy" class="checkbox-input" required>
+            <input type="checkbox" 
+            name="privacy-policy" 
+            id="privacy-policy" 
+            class="checkbox-input" 
+            required>
             <label for="privacy-policy" class="checkbox-label">
                 <span class="checkbox-custom">
                     <svg class="checkbox-icon" width="10" height="8">
@@ -424,7 +439,7 @@
         </div>        
         <button type="submit" class="form-submit-btn">Send</button>
         </form>
-</div>
+  </div>
 </div>
 <script src="./js/modal.js"></script>
 </body>
