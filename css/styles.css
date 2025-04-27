@@ -760,6 +760,7 @@ font: 400 12px / 1.17 "Roboto", sans-serif;
 letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
 background-color: transparent; 
+margin-bottom: 16px;
 }
 
 .form-textarea::placeholder {
