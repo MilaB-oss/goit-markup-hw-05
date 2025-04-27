@@ -836,7 +836,7 @@ fill: currentColor;
 }
 
 .form-submit-btn {
-  display: inline-flex;
+  display: block;
   justify-content: center;
   align-items: center;
   min-width: 169px;
