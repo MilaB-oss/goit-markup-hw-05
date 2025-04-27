@@ -621,7 +621,6 @@ background-color: #404bbf;
 margin-left: 16px;
 fill: currentColor;
 }
-/* Оптимізована версія CSS для модального вікна */
 
 :root {
   --icon-checked-color: #F4F4FD;
@@ -820,13 +819,14 @@ fill: currentColor;
 
 .checkbox-input:checked + .checkbox-label .checkbox-custom {
   background-color: var(--checkbox-checked-bg);
-  border-color: var(--checkbox-checked-bg);
+  border: none;
 }
 
 .checkbox-input:checked + .checkbox-label .checkbox-icon {
-  opacity: 1;
   fill: var(--icon-checked-color);
+  opacity: 1;
 }
+
 
 .privacy-link {
   font: 400 12px/1.34 "Roboto", sans-serif;
