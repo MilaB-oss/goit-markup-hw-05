@@ -802,7 +802,6 @@ fill: currentColor;
 }
 
 .checkbox-label {
-  display: flex;
   align-items: center;
   font: 400 12px/1.17 "Roboto", sans-serif;
   letter-spacing: 0.04em;
