@@ -810,7 +810,7 @@ user-select: none;
   --link-color: #4d5ae5; 
 }
 
-.checkbox-custom {
+span.checkbox-custom {
 display: inline-flex;
 align-items: center;
 justify-content: center;
