@@ -820,13 +820,13 @@ fill: currentColor;
 .checkbox-input:checked + .checkbox-label .checkbox-custom {
   background-color: var(--checkbox-checked-bg);
   border: none;
+  fill: var(--icon-checked-color); 
 }
 
 .checkbox-input:checked + .checkbox-label .checkbox-icon {
   fill: var(--icon-checked-color);
   opacity: 1;
 }
-
 
 .privacy-link {
   font: 400 12px/1.34 "Roboto", sans-serif;
