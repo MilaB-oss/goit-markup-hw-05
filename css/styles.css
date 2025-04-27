@@ -691,6 +691,9 @@ margin-bottom: 8px;
 position: relative;
 }
 
+.form-field:last-child {
+  margin-bottom: 16px;
+}
 .input-wrapper {
 position: relative;
 margin-bottom: 8px;
@@ -755,7 +758,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 font: 400 12px / 1.17 "Roboto", sans-serif;
 letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
-margin-bottom: 16px;
 }
 
 .form-textarea::placeholder {
