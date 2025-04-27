@@ -796,7 +796,7 @@ fill: currentColor;
   user-select: none;
 }
 
-span.checkbox-custom {
+.checkbox-custom {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -813,7 +813,6 @@ span.checkbox-custom {
 }
 
 .checkbox-icon {
-  display: inline-flex;
   fill: #F4F4FD;
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
